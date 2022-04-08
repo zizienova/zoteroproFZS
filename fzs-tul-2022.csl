@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2011</summary>
-    <updated>2022-04-08T15:18:42+00:00</updated>
+    <updated>2022-04-08T19:23:46+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -249,7 +249,7 @@
       <else-if type="personal_communication" match="any">
         <text variable="title" font-style="italic" suffix=" [elektronická komunikace]"/>
       </else-if>
-      <else-if type="interview" match="any">
+      <else-if type="interview bill" match="any">
         <text variable="title"/>
       </else-if>
       <else-if type="speech" match="any">
@@ -432,21 +432,25 @@
   <macro name="accessed">
     <choose>
       <if variable="URL" match="any">
-        <group prefix=" [" suffix="]">
-          <choose>
-            <if match="none" variable="note">
-              <text value="Cit. "/>
-            </if>
-            <else>
-              <text value="cit. "/>
-            </else>
-          </choose>
-          <date variable="accessed">
-            <date-part name="year"/>
-            <date-part name="month" form="numeric-leading-zeros" prefix="-"/>
-            <date-part name="day" form="numeric-leading-zeros" prefix="-"/>
-          </date>
-        </group>
+        <choose>
+          <if type="bill" match="none">
+            <group prefix=" [" suffix="]">
+              <choose>
+                <if match="none" variable="note">
+                  <text value="Cit. "/>
+                </if>
+                <else>
+                  <text value="cit. "/>
+                </else>
+              </choose>
+              <date variable="accessed">
+                <date-part name="year"/>
+                <date-part name="month" form="numeric-leading-zeros" prefix="-"/>
+                <date-part name="day" form="numeric-leading-zeros" prefix="-"/>
+              </date>
+            </group>
+          </if>
+        </choose>
       </if>
       <else-if type="personal_communication" match="any">
         <choose>
@@ -785,6 +789,19 @@
           <group delimiter=". " suffix=". ">
             <text macro="title"/>
             <text macro="interviewer"/>
+          </group>
+        </else-if>
+        <else-if type="bill" match="any">
+          <group delimiter=". " suffix=". ">
+            <text macro="title"/>
+            <text macro="medium"/>
+            <text macro="genre"/>
+            <text macro="edition"/>
+            <text macro="publisher-info"/>
+            <text macro="accessed"/>
+            <text macro="collection"/>
+            <text macro="page"/>
+            <text macro="doi"/>
           </group>
         </else-if>
         <else>

@@ -10,8 +10,6 @@ legislativa
 
 ### Co je třeba změnit:
 
-
-
 Místo autora má být na začátku "authority".
 
 "Title" nemá být kurzívou.
@@ -24,24 +22,16 @@ Pak má být "volume", za ním čárka.
 
 Pak má být "page", za ním tečka.
 
-Rok a datum citování smazat.
+~~Rok a datum citování smazat.~~
 
 ISSN a dostupnost jsou OK („note“ a „url“).
 
 Do odkazu v textu je třeba také dávat "authority".
 
-
-
 ### Výsledná citace má být takto:
-
-
-
-
 
 ČESKO. MINISTERSTVO ZDRAVOTNICTVÍ. Vyhláška č. 55 ze dne 1. března 2011 o činnostech zdravotnických pracovníků a jiných odborných pracovníků. In: *Sbírka zákonů České republiky*. Částka 20, s. 482–544. ISSN 1211-1244. Dostupné také z:
 https://aplikace.mvcr.cz/sbirka-zakonu/ViewFile.aspx?type=c&id=5886
-
-
 
 ### JSON:
 
