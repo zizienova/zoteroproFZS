@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2011</summary>
-    <updated>2022-04-08T12:07:25+00:00</updated>
+    <updated>2022-04-08T15:08:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -187,7 +187,7 @@
       <if type="book thesis map motion_picture song manuscript broadcast report" match="any">
         <text variable="title" font-style="italic"/>
       </if>
-      <else-if type="paper-conference speech chapter post" match="any">
+      <else-if type="paper-conference chapter post" match="any">
         <text variable="title" suffix=". "/>
         <text term="in" text-case="capitalize-first" suffix=": "/>
         <choose>
@@ -252,6 +252,10 @@
       <else-if type="interview" match="any">
         <text variable="title"/>
       </else-if>
+      <else-if type="speech" match="any">
+        <text variable="title" font-style="italic" suffix=" ["/>
+        <text macro="genre" suffix="]"/>
+      </else-if>
       <else>
         <text variable="title" font-style="italic"/>
       </else>
@@ -305,6 +309,13 @@
               <date-part name="day" form="numeric-leading-zeros" prefix="-"/>
             </date>
           </if>
+          <else-if type="speech" match="any">
+            <date variable="issued" prefix=", ">
+              <date-part name="day" suffix=". "/>
+              <date-part name="month" form="numeric" suffix=". "/>
+              <date-part name="year"/>
+            </date>
+          </else-if>
           <else>
             <date variable="issued">
               <date-part name="day" suffix=". "/>
@@ -354,6 +365,17 @@
           </else-if>
         </choose>
       </if>
+      <else-if type="speech" match="any">
+        <group>
+          <text variable="publisher-place"/>
+          <choose>
+            <if match="any" variable="poradatel">
+              <text variable="poradatel" prefix=": "/>
+            </if>
+          </choose>
+          <text macro="date"/>
+        </group>
+      </else-if>
       <else>
         <choose>
           <if variable="publisher-place">
@@ -644,7 +666,6 @@
         <else-if type="speech">
           <group delimiter=". " suffix=". ">
             <text macro="title"/>
-            <text macro="genre"/>
             <text macro="publisher-place"/>
             <group delimiter=" ">
               <text macro="accessed"/>
