@@ -8,11 +8,13 @@ citation style for FZS TUL for Zotero
 
 legislativa
 
-ještě chybí přidat URL (Dostupné také z:)
+~~ještě chybí přidat URL (Dostupné také z:)~~
 
 dva autoři se dělají chybně (je mezi nimi spojka A velká)
 
-udělat makro na AUTHORITY? (mělo by být stejné, jako na author)
+řešení? převést dva autory do jiného pole, co se dá opakovat? Je nutné, aby fungovalo v odkazu i v citaci! Jednou s malými psímeny a jednou s velkými písmeny a malými spojkami. 
+
+~~udělat makro na AUTHORITY? (mělo by být stejné, jako na author)~~
 
 ### Co je třeba změnit:
 
