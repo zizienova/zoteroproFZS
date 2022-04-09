@@ -6,7 +6,13 @@ citation style for FZS TUL for Zotero
 
 ## Na čem teď pracujeme:
 
-legislativa - mělo by být hotovo :)
+legislativa
+
+ještě chybí přidat URL (Dostupné také z:)
+
+dva autoři se dělají chybně (je mezi nimi spojka A velká)
+
+udělat makro na AUTHORITY? (mělo by být stejné, jako na author)
 
 ### Co je třeba změnit:
 
