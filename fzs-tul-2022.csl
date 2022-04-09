@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2011</summary>
-    <updated>2022-04-08T19:23:46+00:00</updated>
+    <updated>2022-04-09T05:15:48+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -88,11 +88,14 @@
   </macro>
   <macro name="responsability">
     <choose>
-      <if variable="author editor" match="any">
+      <if variable="author editor authority" match="any">
         <choose>
           <if variable="author">
             <text macro="author"/>
           </if>
+          <else-if match="any" variable="authority">
+            <text variable="authority" text-case="uppercase" font-variant="normal" font-weight="normal"/>
+          </else-if>
           <else variable="editor">
             <text macro="editor"/>
           </else>
@@ -131,6 +134,9 @@
       </if>
       <else-if match="any" variable="editor">
         <text macro="editor-citation"/>
+      </else-if>
+      <else-if match="any" variable="authority">
+        <text variable="authority"/>
       </else-if>
       <else>
         <text value="ANON"/>
@@ -187,7 +193,7 @@
       <if type="book thesis map motion_picture song manuscript broadcast report" match="any">
         <text variable="title" font-style="italic"/>
       </if>
-      <else-if type="paper-conference chapter post" match="any">
+      <else-if type="paper-conference chapter post bill" match="any">
         <text variable="title" suffix=". "/>
         <text term="in" text-case="capitalize-first" suffix=": "/>
         <choose>
@@ -484,6 +490,12 @@
       </else-if>
       <else-if type="report patent" match="any">
         <text variable="page" suffix=" "/>
+      </else-if>
+      <else-if type="bill" match="any">
+        <group>
+          <text variable="volume" prefix="Částka "/>
+          <text variable="page" form="short" prefix=", s. "/>
+        </group>
       </else-if>
     </choose>
   </macro>

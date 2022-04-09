@@ -6,27 +6,27 @@ citation style for FZS TUL for Zotero
 
 ## Na čem teď pracujeme:
 
-legislativa
+legislativa - mělo by být hotovo :)
 
 ### Co je třeba změnit:
 
-Místo autora má být na začátku "authority".
+~~Místo autora má být na začátku "authority".~~
 
-"Title" nemá být kurzívou.
+~~"Title" nemá být kurzívou.~~
 
-Za „title“ Má být In:
+~~Za „title“ Má být In:~~
 
-Pak má být "container-title", to má být kurzívou.
+~~Pak má být "container-title", to má být kurzívou.~~
 
-Pak má být "volume", za ním čárka.
+~~Pak má být "volume", za ním čárka.~~
 
-Pak má být "page", za ním tečka.
+~~Pak má být "page", za ním tečka.~~
 
 ~~Rok a datum citování smazat.~~
 
-ISSN a dostupnost jsou OK („note“ a „url“).
+~~ISSN a dostupnost jsou OK („note“ a „url“).~~
 
-Do odkazu v textu je třeba také dávat "authority".
+~~Do odkazu v textu je třeba také dávat "authority".~~
 
 ### Výsledná citace má být takto:
 
