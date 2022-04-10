@@ -1,8 +1,131 @@
-# zoteroproFZS
+# README
 
-citation style for FZS TUL for Zotero
+### Jaké druhy dokumentů lze citovat:
 
-## Co lze citovat:
+Styl je upraven pouze pro typy dokumentů, které nejčastěji citují studenti FTS TUL a které jsou definované v *Metodice zpracování bibliografických citací, 2. vyd.* viz https://publi.cz/download/publication/1514?online=1. Jedná se o:
+
+- knihy
+
+- články
+
+- kapitoly
+
+- kvalifikační práce
+
+- webové stránky <mark>(dodělat)</mark>
+
+- legislativu (vyhlášky, zákony, věstníky, legislativu Evropské unie)
+
+- normy
+
+- patenty a užitné vzory
+
+- přednášky (ústní sdělení)
+
+- e-maily
+
+- obrázky (<mark>dodělat</mark>)
+
+- PDF na webu (příspěvky na webové stránce ve formátu PDF) (<mark>dodělat</mark>)
+
+- postery (<mark>dodělat</mark>)
+
+### Jaké druhy dokumentů (typy položek) citovat nelze:
+
+Pro následující dokumenty není citační styl upraven: audio nahrávka, článek v encyklopedii, článek v magazínu, článek v novinách, dokument, dopis, film, konferenční příspěvek, mapa, nařízení, podcast, pořad v rádiu, pořad v TV, preprint, případ, příspěvek v blogu, příspěvek ve fóru, rozhovor, rukopis, slyšení, software, umělecké dílo, videonahrávka, záznam ve slovníku, zpráva, zpráva IM.
+
+V případě, že potřebujete citovat některý z těchto druhů, pak dodržujte princip toho, že citace by měly dodržovat stejná pravidla a měly by vypadat podobně. Lze použít některý z připravených dokumentů (viz Jaké dokumenty lze citovat).
+
+### Co citační styl neumí a je tedy nutné upravovat ručně:
+
+Některá pravidla v https://publi.cz/books/1514/index.html?secured=false#05 nelze naprogramovat. Proto úprava musí probíhat na úrovni metadat uložených v Zotero nebo až na závěr ve vygenerovaném seznamu literatury.
+
+##### Autoři:
+
+- dodržujte v metadatech mezeru za tečkou mezi více iniciálami, např. Volandes, A. E.
+- u tří osob zkracujte v metadatech křesní jména na iniciály
+
+- pokud jsou autoři či editoři uvedeni ve formě "Jan Novák a kol.", pak v metadatech doplňte první osobu a k ní další tři FIKTIVNÍ osoby (např. autor2, autor3, autor4).
+
+- u dvou a více editorů opravujte ed. na eds. - v odkaze v textu i v bibliografické citaci!
+
+##### Názvy:
+
+- u podnázvu mažte v metadatech mezeru před dvojtečkou
+
+- u časopisů mažte v metadatech podnázvy časopisů
+
+- pokud název nebo podnázev končí vykřičníkem nebo otazníkem, doplňujte za ně v metadatech tečku
+
+##### Vydání; místo, nakladatel, rok; standardní čísla a identifikátory:
+
+Vždy metadata měňte podle požadavků v https://publi.cz/books/1514/index.html?secured=false#05.
+
+##### Další údaje, které se budou ukládat při stahování metadat:
+
+Souběžný název, edici (sérii), abstrakt, krátký název, práva, signatura a další údaje, které se budou stahovat do Zotera, můžete, ale nemusíte mazat. Tyto údaje by neměly mít na výslednou citaci vliv. Samozřejmě pokud se s údaji nepracuje, je výhodnější je smazat a udržovat tedy metadata vyčištěná.
+
+### Specifika jednotlivých druhů dokumentů:
+
+##### Knihy:
+
+Používejte typ položky "kniha". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+
+##### Články:
+
+Používejte typ položky "článek v časopise". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+
+Pokud chybí URL v citacích, je nutné ho nastavit v desktop Zoteru v preferencích (zahrnout URL článků v preferencích) viz
+
+![](C:\Users\Marta\AppData\Roaming\marktext\images\2022-04-10-14-38-08-image.png)
+
+##### Kapitoly:
+
+Používejte typ položky "kapitola knihy". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+
+Pokud chybí editor knihy, je třeba ho psát do Zotera do pole editor.
+DOI kapitoly pište do pole EXTRA ve tvaru DOI: 10.19.12345667.
+Ze Scopusu se kapitoly stahují jako články, je možné okopírovat DOI a pak přes kouzelnou hůlku znovu vložit pomocí DOI.
+
+##### Kvalifikační práce:
+
+Používejte typ položky "vysokoškolská kvalifikační práce". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+
+Stahování z katalogu Univerzitní knihovny TUL nefunguje. Funguje stahování z DSpace (https://dspace.tul.cz/), ale automatický druh je článek v časopise, je nutné ho měnit; je třeba doplňovat ručně fakultu, někdy i místo.
+
+##### Webové stránky: <mark>(dodělat):</mark>
+
+**<mark>Pokračovat v doplňování odsud!!!</mark>**
+
+##### Legislativa (vyhlášky, zákony, věstníky, legislativa Evropské unie):
+
+ (typ položky "návrh zákona"):
+
+##### Normy:
+
+ (typ položky "kniha"):
+
+##### Patenty a užitné vzory:
+
+ (typ položky "patent"):
+
+##### Přednášky (ústní sdělení):
+
+ (typ položky "prezentace"):
+
+##### E-maily:
+
+ (typ položky "e-mail"):
+
+##### Obrázky: (<mark>dodělat</mark>):
+
+##### PDF na webu (příspěvky na webové stránce ve formátu PDF): (<mark>dodělat</mark>):
+
+##### Postery: (<mark>dodělat</mark>):
+
+
+
+# Pro Adyho:
 
 ## Chyby k vyřešení:
 
