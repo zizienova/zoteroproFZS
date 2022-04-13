@@ -43,6 +43,7 @@ Některá pravidla v https://publi.cz/books/1514/index.html?secured=false#05 nel
 ##### Autoři:
 
 - dodržujte v metadatech mezeru za tečkou mezi více iniciálami, např. Volandes, A. E.
+
 - u tří osob zkracujte v metadatech křesní jména na iniciály
 
 - pokud jsou autoři či editoři uvedeni ve formě "Jan Novák a kol.", pak v metadatech doplňte první osobu a k ní další tři FIKTIVNÍ osoby (např. autor2, autor3, autor4).
@@ -91,7 +92,7 @@ Ze Scopusu se kapitoly stahují jako články, je možné okopírovat DOI a pak 
 
 Používejte typ položky "vysokoškolská kvalifikační práce". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
-Stahování z katalogu Univerzitní knihovny TUL nefunguje. Funguje stahování z DSpace (https://dspace.tul.cz/), ale automatický druh je článek v časopise, je nutné ho měnit; je třeba doplňovat ručně fakultu, někdy i místo.
+Stahování z katalogu Univerzitní knihovny TUL nefunguje. Funguje stahování z DSpace (https://dspace.tul.cz/), ale automatický druh je článek v časopise, je nutné ho měnit; je třeba doplňovat ručně fakultu, typ práce, někdy i místo.
 
 ##### Webové stránky: <mark>(dodělat):</mark>
 
@@ -99,7 +100,13 @@ Stahování z katalogu Univerzitní knihovny TUL nefunguje. Funguje stahování 
 
 ##### Legislativa (vyhlášky, zákony, věstníky, legislativa Evropské unie):
 
- (typ položky "návrh zákona"):
+
+
+Používejte typ položky "návrh zákona". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+
+Citace je třeba vytvářet ručně, stahování ze systémů Zákony pro lidi, aplikace MVČR a dalších nefunguje.
+
+Autor se píše v metadatech do pole SPONZOR. Název sbírky se píše do pole ZÁKONÍK. Částka do pole ROČNÍK ZÁKONÍKU. Rok do pole DATUM. ISSN je třeba psát do pole EXTRA, a to ve tvaru ISSN: 1234-5678.
 
 ##### Normy:
 
@@ -122,8 +129,6 @@ Stahování z katalogu Univerzitní knihovny TUL nefunguje. Funguje stahování 
 ##### PDF na webu (příspěvky na webové stránce ve formátu PDF): (<mark>dodělat</mark>):
 
 ##### Postery: (<mark>dodělat</mark>):
-
-
 
 # Pro Adyho:
 
@@ -282,3 +287,25 @@ tky_pecujici_o_zeny_po_porodu_v_komunitnim_prostredi
         }
     }
 ]
+
+
+
+## Vzorová metadata:
+
+##### Kniha:
+
+<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-13-17-25-00-image.png" title="" alt="" width="365">
+
+##### Článek:
+
+<img title="" src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-13-17-30-50-image.png" alt="" width="410">
+
+##### Kapitola:
+
+<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-13-17-38-28-image.png" title="" alt="" width="476">
+
+##### Kvalifikační práce:
+
+<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-13-17-40-46-image.png" title="" alt="" width="505">
+
+##### Legislativa:
