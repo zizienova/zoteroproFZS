@@ -112,7 +112,7 @@ Vzorová metadata:
 
 ##### Webové stránky: <mark>(dodělat):</mark>
 
-**<mark>Pokračovat v doplňování odsud!!!</mark>**
+****
 
 ##### Legislativa (vyhlášky, zákony, věstníky, legislativa Evropské unie):
 
@@ -188,7 +188,29 @@ Vzorová metadata:
 
 ##### Obrázky: (<mark>dodělat</mark>):
 
-##### PDF na webu (příspěvky na webové stránce ve formátu PDF): (<mark>dodělat</mark>):
+##### PDF na webu (příspěvky na webové stránce ve formátu PDF):
+
+Používejte typ položky "Dokument". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+
+Citace je třeba vytvářet ručně, nejdou odnikud stáhnout v přijatelné podobě.
+
+Vydání se píše do pole EXTRA ve tvaru:
+
+edition: 2. vyd.
+
+Zveřejňující organizace se píše do pole ARCHIV ve tvaru:
+
+Zveřejnil XY.
+
+DOI se píše do pole EXTRA ve tvaru:
+
+DOI: 123-456-67
+
+
+
+![](C:\Users\Marta\AppData\Roaming\marktext\images\2022-04-15-14-47-39-image.png)
+
+
 
 ##### Postery: (<mark>dodělat</mark>):
 
@@ -228,7 +250,7 @@ Postup:
 
 - obrázky
 
-- PDF na webu
+- 
 
 - postery
 

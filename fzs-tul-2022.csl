@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2011</summary>
-    <updated>2022-04-15T07:47:25+00:00</updated>
+    <updated>2022-04-15T12:39:51+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -797,6 +797,20 @@
             <text macro="publisher-info"/>
             <text macro="accessed"/>
             <text macro="page"/>
+            <text macro="doi"/>
+          </group>
+          <text macro="url"/>
+        </else-if>
+        <else-if type="document" match="any">
+          <group delimiter=". " suffix=". ">
+            <group>
+              <group delimiter=". ">
+                <text macro="title"/>
+                <text macro="edition"/>
+                <text macro="publisher-info"/>
+                <text variable="archive"/>
+              </group>
+            </group>
             <text macro="doi"/>
           </group>
           <text macro="url"/>
