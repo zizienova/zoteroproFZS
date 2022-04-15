@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2011</summary>
-    <updated>2022-04-15T07:06:06+00:00</updated>
+    <updated>2022-04-15T07:47:25+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -150,7 +150,7 @@
   </macro>
   <macro name="container-responsability">
     <choose>
-      <if variable="container-author editor translator" match="any">
+      <if variable="container-author editor" match="any">
         <choose>
           <if variable="container-author">
             <text macro="container-author" suffix="."/>
@@ -158,9 +158,6 @@
           <else-if variable="editor">
             <text macro="editor-chapter"/>
           </else-if>
-          <else>
-            <text macro="translator"/>
-          </else>
         </choose>
       </if>
       <else>
@@ -624,10 +621,8 @@
             <text macro="genre"/>
             <text macro="scale"/>
             <text macro="edition"/>
-            <text macro="secondary-responsability"/>
             <text macro="publisher-info"/>
             <group delimiter=" ">
-              <text macro="collection"/>
               <text macro="accessed"/>
             </group>
             <text macro="doi"/>
@@ -643,7 +638,6 @@
               <text macro="publisher-info"/>
               <text macro="accessed"/>
             </group>
-            <text macro="collection"/>
             <text macro="doi"/>
           </group>
           <text macro="url"/>
@@ -668,7 +662,6 @@
             <group delimiter=" ">
               <group delimiter=", ">
                 <text macro="publisher-info"/>
-                <text macro="collection"/>
                 <text macro="page"/>
               </group>
             </group>
@@ -698,7 +691,6 @@
               </group>
               <text macro="accessed"/>
             </group>
-            <text macro="collection"/>
             <text macro="doi"/>
           </group>
           <text macro="url"/>
@@ -737,7 +729,6 @@
           <text macro="publisher" suffix=". "/>
           <text macro="date" suffix=". "/>
           <text macro="accessed" suffix=". "/>
-          <text macro="collection" suffix=". "/>
           <text macro="doi" suffix=". "/>
           <text macro="url"/>
         </else-if>
@@ -751,7 +742,6 @@
         <else-if type="report">
           <group delimiter=". " suffix=". ">
             <group delimiter=": ">
-              <text macro="collection"/>
               <text macro="title"/>
             </group>
             <text macro="edition"/>
@@ -772,7 +762,6 @@
           <text macro="edition" suffix=". "/>
           <text macro="publisher-place" suffix=", "/>
           <text macro="accessed" suffix=". "/>
-          <text macro="collection" suffix=". "/>
           <text macro="url"/>
         </else-if>
         <else-if type="patent">
@@ -780,7 +769,6 @@
           <text macro="publisher-place"/>
           <text macro="number" suffix=". "/>
           <text macro="accessed" suffix=". "/>
-          <text macro="collection" suffix=". "/>
           <text macro="url"/>
         </else-if>
         <else-if type="personal_communication">
@@ -808,7 +796,6 @@
             <text macro="edition"/>
             <text macro="publisher-info"/>
             <text macro="accessed"/>
-            <text macro="collection"/>
             <text macro="page"/>
             <text macro="doi"/>
           </group>
@@ -823,7 +810,6 @@
             <text macro="edition"/>
             <text macro="publisher-info"/>
             <text macro="accessed"/>
-            <text macro="collection"/>
             <text macro="page"/>
             <text macro="doi"/>
           </group>
