@@ -92,7 +92,7 @@ Vzorová metadata:
 
 Používejte typ položky "Kapitola knihy". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
-Pokud chybí editor knihy, je třeba ho psát do Zotera do pole editor.
+Pokud chybí editor knihy nebo autor knihy, je třeba je psát do Zotera do pole EDITOR resp. AUTOR KNIHY.
 DOI kapitoly pište do pole EXTRA ve tvaru DOI: 10.19.12345667.
 Ze Scopusu se kapitoly stahují jako články, je možné okopírovat DOI a pak přes kouzelnou hůlku znovu vložit pomocí DOI.
 
@@ -196,79 +196,13 @@ Vzorová metadata:
 
 ## Chyby k vyřešení:
 
-U kapitoly, pokud má kniha autora a ne editora, tak za autorem chybí tečka. Viz například citace na pokusnou kapitolu.
+Postup:
 
-#### JSON na takový případ:
+- [ ] dodělat zbylé citace
 
-[
-    {
-        "id": "http://zotero.org/users/628524/items/YWD5VMUU",
-        "type": "chapter",
-        "abstract": "Abstrakt",
-        "archive": "Archiv",
-        "archive_location": "Místo v archivu",
-        "call-number": "Signatura",
-        "collection-number": "Číslo série",
-        "collection-title": "Série",
-        "container-title": "Jméno knihy",
-        "edition": "Vydání",
-        "event-place": "Místo",
-        "ISBN": "ISBN",
-        "note": "Extra",
-        "number-of-volumes": "Počet ročníků",
-        "page": "Rozsah",
-        "publisher": "Vydavatel",
-        "publisher-place": "Místo",
-        "source": "medvik.cz",
-        "title": "ZZZ pokusná kapitola",
-        "title-short": "Krátký název",
-        "URL": "URL",
-        "volume": "Ročník",
-        "author": [
-            {
-                "family": "ZZZ",
-                "given": "Jméno"
-            }
-        ],
-        "container-author": [
-            {
-                "family": "Příjmení autora knihy",
-                "given": "Jméno",
-                "dropping-particle": "autora knihy"
-            }
-        ],
-        "editor": [
-            {
-                "family": "Editor",
-                "given": ""
-            }
-        ],
-        "collection-editor": [
-            {
-                "family": "Editor série",
-                "given": "Jméno"
-            }
-        ],
-        "translator": [
-            {
-                "family": "Překladatel",
-                "given": "Jméno"
-            }
-        ],
-        "accessed": {
-            "date-parts": [
-                [
-                    "2022",
-                    3,
-                    19
-                ]
-            ]
-        },
-        "issued": {
-            "literal": "Datum"
-        }
-    }
-]
+- [ ] vyčistit kód
+
+- [ ] dodělat případně další typy dokumentů
 
 ### Je hotovo:
 

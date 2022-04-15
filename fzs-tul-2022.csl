@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2011</summary>
-    <updated>2022-04-09T16:48:15+00:00</updated>
+    <updated>2022-04-15T07:06:06+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -153,7 +153,7 @@
       <if variable="container-author editor translator" match="any">
         <choose>
           <if variable="container-author">
-            <text macro="container-author"/>
+            <text macro="container-author" suffix="."/>
           </if>
           <else-if variable="editor">
             <text macro="editor-chapter"/>
