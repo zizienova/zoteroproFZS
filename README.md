@@ -34,7 +34,7 @@ Styl je upraven pouze pro typy dokumentů, které nejčastěji citují studenti 
 
 Pro následující dokumenty není citační styl upraven: audio nahrávka, článek v encyklopedii, článek v magazínu, článek v novinách, dokument, dopis, film, konferenční příspěvek, mapa, nařízení, podcast, pořad v rádiu, pořad v TV, preprint, případ, příspěvek v blogu, příspěvek ve fóru, rozhovor, rukopis, slyšení, software, umělecké dílo, videonahrávka, záznam ve slovníku, zpráva, zpráva IM.
 
-V případě, že potřebujete citovat některý z těchto druhů, pak dodržujte princip toho, že citace by měly dodržovat stejná pravidla a měly by vypadat podobně. Lze použít některý z připravených dokumentů (viz Jaké dokumenty lze citovat).
+V případě, že potřebujete citovat některý z těchto druhů, pak dodržujte princip toho, že citace by měly dodržovat stejná pravidla a měly by vypadat podobně. Lze použít některý z připravených druhů dokumentů (viz Jaké dokumenty lze citovat).
 
 ### Co citační styl neumí a je tedy nutné upravovat ručně:
 
@@ -70,29 +70,45 @@ Souběžný název, edici (sérii), abstrakt, krátký název, práva, signatura
 
 ##### Knihy:
 
-Používejte typ položky "kniha". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+Používejte typ položky "Kniha". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+
+Vzorová metadata:
+
+<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-14-18-33-38-image.png" title="" alt="" width="398">
 
 ##### Články:
 
-Používejte typ položky "článek v časopise". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+Používejte typ položky "Článek v časopise". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
 Pokud chybí URL v citacích, je nutné ho nastavit v desktop Zoteru v preferencích (zahrnout URL článků v preferencích) viz
 
 ![](C:\Users\Marta\AppData\Roaming\marktext\images\2022-04-10-14-38-08-image.png)
 
+Vzorová metadata:
+
+<img title="" src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-14-18-35-21-image.png" alt="" width="466">
+
 ##### Kapitoly:
 
-Používejte typ položky "kapitola knihy". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+Používejte typ položky "Kapitola knihy". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
 Pokud chybí editor knihy, je třeba ho psát do Zotera do pole editor.
 DOI kapitoly pište do pole EXTRA ve tvaru DOI: 10.19.12345667.
 Ze Scopusu se kapitoly stahují jako články, je možné okopírovat DOI a pak přes kouzelnou hůlku znovu vložit pomocí DOI.
 
+Vzorová metadata:
+
+<img title="" src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-14-18-36-58-image.png" alt="" width="447">
+
 ##### Kvalifikační práce:
 
-Používejte typ položky "vysokoškolská kvalifikační práce". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+Používejte typ položky "Vysokoškolská kvalifikační práce". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
 Stahování z katalogu Univerzitní knihovny TUL nefunguje. Funguje stahování z DSpace (https://dspace.tul.cz/), ale automatický druh je článek v časopise, je nutné ho měnit; je třeba doplňovat ručně fakultu, typ práce, někdy i místo.
+
+Vzorová metadata:
+
+<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-14-18-38-23-image.png" title="" alt="" width="456">
 
 ##### Webové stránky: <mark>(dodělat):</mark>
 
@@ -100,29 +116,75 @@ Stahování z katalogu Univerzitní knihovny TUL nefunguje. Funguje stahování 
 
 ##### Legislativa (vyhlášky, zákony, věstníky, legislativa Evropské unie):
 
-
-
-Používejte typ položky "návrh zákona". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+Používejte typ položky "Návrh zákona". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
 Citace je třeba vytvářet ručně, stahování ze systémů Zákony pro lidi, aplikace MVČR a dalších nefunguje.
 
-Autor se píše v metadatech do pole SPONZOR. Název sbírky se píše do pole ZÁKONÍK. Částka do pole ROČNÍK ZÁKONÍKU. Rok do pole DATUM. ISSN je třeba psát do pole EXTRA, a to ve tvaru ISSN: 1234-5678.
+Autor se píše v metadatech do pole SPONZOR. Název sbírky se píše do pole ZÁKONÍK. Částka se píše do pole ROČNÍK ZÁKONÍKU. Strany se píší do pole STRÁNKY ZÁKONÍKU.  Rok se píše do pole DATUM. ISSN je třeba psát do pole EXTRA, a to ve tvaru ISSN: 1234-5678.
+
+Vzorová metadata:
+
+<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-14-18-42-40-image.png" title="" alt="" width="479">
 
 ##### Normy:
 
- (typ položky "kniha"):
+Používejte typ položky "Kniha". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+
+Citace je třeba vytvářet ručně, nejdou odnikud stáhnout v přijatelné podobě.
+
+Do pole AUTOR se píše číselné označení normy.
+
+Vzorová metadata:
+
+<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-14-18-46-42-image.png" title="" alt="" width="499">
 
 ##### Patenty a užitné vzory:
 
- (typ položky "patent"):
+Používejte typ položky "Patent". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+
+Funguje stahování z databází Espacenet, Google Patents aj. Citace je třeba opravovat.
+
+Původce pište do pole VYNÁLEZCE. Datum udělení či přihlášení pište do pole DATUM VYDÁNÍ. Do pole EXTRA se uvádějí dva údaje ve tvaru:
+
+jmeno_majitele: Technická univerzita v Liberci
+
+druh_dokumentu: užitný vzor
+
+Pozor, každý údaj musí být na novém řádku a zapsaný přesně takto!
+
+Vzorová metadata:
+
+<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-14-18-56-51-image.png" title="" alt="" width="467">
 
 ##### Přednášky (ústní sdělení):
 
- (typ položky "prezentace"):
+Používejte typ položky "Prezentace". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+
+Citace je třeba vytvářet ručně, nejdou odnikud stáhnout v přijatelné podobě.
+
+Lektora pište do pole PREZENTUJÍCÍ. Do pole TYP pište přednáška. Datum konání pište do pole DATUM. Místo konání pište do pole MÍSTO. Pořadatele pište do pole EXTRA ve tvaru:
+
+poradatel: Technická univerzita v Liberci
+
+Vzorová metadata:
+
+<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-14-19-05-08-image.png" title="" alt="" width="483">
 
 ##### E-maily:
 
- (typ položky "e-mail"):
+Používejte typ položky "E-mail". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+
+Citace je třeba vytvářet ručně, nejdou odnikud stáhnout v přijatelné podobě.
+
+Název e-mailu pište do pole SUBJEKT. Odesílatele pište do pole AUTOR. Adresáta pište do pole PŘÍJEMCE. Datumy se píší do tří polí:
+Do „DATUM“ pište jen rok, kdy byl mail doručen.
+Do pole „PŘÍSTUP“ se píše datum citování (např. 3. 10. 2016).
+Do „EXTRA“ se píše kompletní datum a čas doručení mailu ve tvaru:
+cas_doruceni: 29. října 2016 12:53
+
+Vzorová metadata:
+
+<img title="" src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-14-19-12-58-image.png" alt="" width="522">
 
 ##### Obrázky: (<mark>dodělat</mark>):
 
@@ -287,25 +349,3 @@ tky_pecujici_o_zeny_po_porodu_v_komunitnim_prostredi
         }
     }
 ]
-
-
-
-## Vzorová metadata:
-
-##### Kniha:
-
-<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-13-17-25-00-image.png" title="" alt="" width="365">
-
-##### Článek:
-
-<img title="" src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-13-17-30-50-image.png" alt="" width="410">
-
-##### Kapitola:
-
-<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-13-17-38-28-image.png" title="" alt="" width="476">
-
-##### Kvalifikační práce:
-
-<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-13-17-40-46-image.png" title="" alt="" width="505">
-
-##### Legislativa:
