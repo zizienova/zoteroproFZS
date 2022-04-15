@@ -12,7 +12,7 @@ Styl je upraven pouze pro typy dokumentů, které nejčastěji citují studenti 
 
 - kvalifikační práce
 
-- webové stránky <mark>(dodělat)</mark>
+- webové stránky
 
 - legislativu (vyhlášky, zákony, věstníky, legislativu Evropské unie)
 
@@ -26,9 +26,9 @@ Styl je upraven pouze pro typy dokumentů, které nejčastěji citují studenti 
 
 - obrázky (<mark>dodělat</mark>)
 
-- PDF na webu (příspěvky na webové stránce ve formátu PDF) (<mark>dodělat</mark>)
+- PDF na webu (příspěvky na webové stránce ve formátu PDF)
 
-- postery (<mark>dodělat</mark>)
+- postery
 
 ### Jaké druhy dokumentů (typy položek) citovat nelze:
 
@@ -110,9 +110,21 @@ Vzorová metadata:
 
 <img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-14-18-38-23-image.png" title="" alt="" width="456">
 
-##### Webové stránky: <mark>(dodělat):</mark>
+##### Webové stránky:
 
-****
+Používejte typ položky "Webová stránka". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+
+Název webové stránky se píše do pole NÁZEV.
+
+Autor webové stránky se píše do pole AUTOR.
+
+NÁzev webu se píše do pole NÁZEV STRÁNKY.
+
+Do pole EXTRA se uvádějí čtyři údaje - autor webu, místo vydání, nakladatel a datum aktualizacen(viz vzorová metadata).
+
+Vzorová metadata:
+
+<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-15-18-58-57-image.png" title="" alt="" width="486">
 
 ##### Legislativa (vyhlášky, zákony, věstníky, legislativa Evropské unie):
 
@@ -206,11 +218,9 @@ DOI se píše do pole EXTRA ve tvaru:
 
 DOI: 123-456-67
 
-
+Vzorová metadata:
 
 <img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-15-14-47-39-image.png" title="" alt="" width="508">
-
-
 
 ##### Postery:
 
@@ -227,6 +237,8 @@ Název konference pište do pole JMÉNO KNIHY.
 DOI se píše také do pole EXTRA ve tvaru:
 
 DOI: 123-456-67
+
+Vzorová metadata:
 
 <img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-15-15-21-43-image.png" title="" alt="" width="588">
 
@@ -247,8 +259,6 @@ Postup:
 ### Zbývá dodělat:
 
 - obrázky
-
-- webovky
 
 # 
 

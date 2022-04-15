@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2011</summary>
-    <updated>2022-04-15T13:14:56+00:00</updated>
+    <updated>2022-04-15T16:53:31+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -233,6 +233,11 @@
           <choose>
             <if variable="container-title">
               <text variable="title"/>
+              <choose>
+                <if match="any" variable="autor-webu">
+                  <text variable="autor-webu"/>
+                </if>
+              </choose>
               <text variable="container-title" font-style="italic"/>
             </if>
             <else>
@@ -430,9 +435,14 @@
   <macro name="publisher-info">
     <choose>
       <if variable="publisher">
-        <group delimiter=": ">
+        <group>
           <text macro="publisher-place"/>
-          <text macro="publisher"/>
+          <text macro="publisher" prefix=": "/>
+          <choose>
+            <if match="any" variable="aktualizovano">
+              <text variable="aktualizovano" prefix=", "/>
+            </if>
+          </choose>
         </group>
       </if>
     </choose>
@@ -444,7 +454,7 @@
           <if type="bill" match="none">
             <group prefix=" [" suffix="]">
               <choose>
-                <if match="none" variable="note">
+                <if match="none" variable="note publisher-place publisher">
                   <text value="Cit. "/>
                 </if>
                 <else>
@@ -717,7 +727,7 @@
         <else-if type="webpage">
           <group suffix=". ">
             <text macro="title"/>
-            <text macro="publisher-info" prefix=". "/>
+            <text macro="publisher-info"/>
             <text macro="accessed" prefix=" "/>
           </group>
           <text macro="url"/>
