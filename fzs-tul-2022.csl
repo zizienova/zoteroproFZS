@@ -15,7 +15,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2011</summary>
-    <updated>2022-04-15T16:53:31+00:00</updated>
+    <updated>2022-04-16T19:00:44+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -434,17 +434,49 @@
   </macro>
   <macro name="publisher-info">
     <choose>
-      <if variable="publisher">
-        <group>
-          <text macro="publisher-place"/>
-          <text macro="publisher" prefix=": "/>
-          <choose>
-            <if match="any" variable="aktualizovano">
-              <text variable="aktualizovano" prefix=", "/>
-            </if>
-          </choose>
-        </group>
+      <if type="webpage" match="any">
+        <choose>
+          <if match="any" variable="publisher-place">
+            <text variable="publisher-place"/>
+            <choose>
+              <if match="any" variable="publisher">
+                <text variable="publisher" prefix=": "/>
+              </if>
+            </choose>
+            <choose>
+              <if match="any" variable="aktualizovano">
+                <text variable="aktualizovano" prefix=", "/>
+              </if>
+            </choose>
+          </if>
+          <else-if match="any" variable="publisher">
+            <text variable="publisher"/>
+            <choose>
+              <if match="any" variable="aktualizovano">
+                <text variable="aktualizovano" prefix=", "/>
+              </if>
+            </choose>
+          </else-if>
+          <else-if match="any" variable="aktualizovano">
+            <text variable="aktualizovano" text-case="capitalize-first"/>
+          </else-if>
+        </choose>
       </if>
+      <else>
+        <choose>
+          <if variable="publisher">
+            <group>
+              <text macro="publisher-place"/>
+              <text macro="publisher" prefix=": "/>
+              <choose>
+                <if match="any" variable="aktualizovano">
+                  <text variable="aktualizovano" prefix=", "/>
+                </if>
+              </choose>
+            </group>
+          </if>
+        </choose>
+      </else>
     </choose>
   </macro>
   <macro name="accessed">
@@ -452,13 +484,27 @@
       <if variable="URL" match="any">
         <choose>
           <if type="bill" match="none">
-            <group prefix=" [" suffix="]">
+            <group suffix="]">
               <choose>
                 <if match="none" variable="note publisher-place publisher">
-                  <text value="Cit. "/>
+                  <choose>
+                    <if match="any" variable="aktualizovano">
+                      <text value="cit. " prefix=" ["/>
+                    </if>
+                    <else>
+                      <text value="Cit. " prefix=" ["/>
+                    </else>
+                  </choose>
                 </if>
                 <else>
-                  <text value="cit. "/>
+                  <choose>
+                    <if match="any" variable="aktualizovano">
+                      <text value="cit. " prefix=" ["/>
+                    </if>
+                    <else>
+                      <text value="cit. " prefix=", ["/>
+                    </else>
+                  </choose>
                 </else>
               </choose>
               <date variable="accessed">
@@ -728,7 +774,7 @@
           <group suffix=". ">
             <text macro="title"/>
             <text macro="publisher-info"/>
-            <text macro="accessed" prefix=" "/>
+            <text macro="accessed"/>
           </group>
           <text macro="url"/>
         </else-if>
