@@ -116,9 +116,9 @@ Používejte typ položky "Webová stránka". Dodržujte všechna pravidla viz s
 
 Název webové stránky se píše do pole NÁZEV.
 
-Autor webové stránky se píše do pole AUTOR.
+Autor webové stránky se píše do pole AUTOR. Pište ho přesně tak, jak pak má být ve výsledné citaci.
 
-NÁzev webu se píše do pole NÁZEV STRÁNKY.
+Název webu se píše do pole NÁZEV STRÁNKY.
 
 Do pole EXTRA se uvádějí čtyři údaje - autor webu, místo vydání, nakladatel a datum aktualizacen(viz vzorová metadata).
 
@@ -209,6 +209,10 @@ Citace je třeba vytvářet ručně, nejdou odnikud stáhnout v přijatelné pod
 Vydání se píše do pole EXTRA ve tvaru:
 
 edition: 2. vyd.
+
+Místo vydání se píše do pole EXTRA ve tvaru:
+
+publisher-place: Praha
 
 Zveřejňující organizace se píše do pole ARCHIV ve tvaru:
 
