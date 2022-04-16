@@ -24,7 +24,7 @@ Styl je upraven pouze pro typy dokumentů, které nejčastěji citují studenti 
 
 - e-maily
 
-- obrázky (<mark>dodělat</mark>)
+- obrázky
 
 - PDF na webu (příspěvky na webové stránce ve formátu PDF)
 
@@ -198,7 +198,27 @@ Vzorová metadata:
 
 <img title="" src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-14-19-12-58-image.png" alt="" width="522">
 
-##### Obrázky: (<mark>dodělat</mark>):
+##### Obrázky:
+
+Pro obrázky v knize používejte typ "Kapitola knihy". Pro obrázky z webových stránek používejte typ "Webová stránka".
+
+###### Obrázek v knize:
+
+Do pole VYDAVATEL pište název vydavatele i rok vydání knihy. Do pole DATUM pište rok vzniku obrázku. Do pole EXTRA pište typ obrázku.
+
+Vzorová metadata:
+
+<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-16-19-10-54-image.png" title="" alt="" width="415">
+
+###### Obrázek z webové stránky:
+
+Do pole NÁZEV pište název obrázku i typ ([online obrázek]. Údaje o webu pište stejně jako u citace webové stránky, využívejte pole EXTRA.
+
+Vzorová metadata:
+
+<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-16-19-16-22-image.png" title="" alt="" width="470">
+
+
 
 ##### PDF na webu (příspěvky na webové stránce ve formátu PDF):
 
@@ -252,17 +272,10 @@ Vzorová metadata:
 
 Postup:
 
-- [ ] dodělat zbylé citace
-
+- [x] 
 - [ ] vyčistit kód
 
 - [ ] dodělat případně další typy dokumentů
-
-### 
-
-### Zbývá dodělat:
-
-- obrázky
 
 # 
 
