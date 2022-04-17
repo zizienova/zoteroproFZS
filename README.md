@@ -32,7 +32,7 @@ Styl je upraven pouze pro typy dokumentů, které nejčastěji citují studenti 
 
 ### Jaké druhy dokumentů (typy položek) citovat nelze:
 
-Pro následující dokumenty není citační styl upraven: audio nahrávka, článek v encyklopedii, článek v magazínu, článek v novinách, dokument, dopis, film, konferenční příspěvek, mapa, nařízení, podcast, pořad v rádiu, pořad v TV, preprint, případ, příspěvek v blogu, příspěvek ve fóru, rozhovor, rukopis, slyšení, software, umělecké dílo, videonahrávka, záznam ve slovníku, zpráva, zpráva IM.
+Pro následující dokumenty není citační styl upraven: audio nahrávka, článek v encyklopedii, článek v magazínu, článek v novinách, dopis, film, konferenční příspěvek, mapa, nařízení, podcast, pořad v rádiu, pořad v TV, preprint, případ, příspěvek v blogu, příspěvek ve fóru, rozhovor, rukopis, slyšení, software, umělecké dílo, videonahrávka, záznam ve slovníku, zpráva, zpráva IM.
 
 V případě, že potřebujete citovat některý z těchto druhů, pak dodržujte princip toho, že citace by měly dodržovat stejná pravidla a měly by vypadat podobně. Lze použít některý z připravených druhů dokumentů (viz Jaké dokumenty lze citovat).
 
@@ -218,8 +218,6 @@ Vzorová metadata:
 
 <img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-16-19-16-22-image.png" title="" alt="" width="470">
 
-
-
 ##### PDF na webu (příspěvky na webové stránce ve formátu PDF):
 
 Používejte typ položky "Dokument". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
@@ -273,6 +271,7 @@ Vzorová metadata:
 Postup:
 
 - [x] 
+
 - [ ] vyčistit kód
 
 - [ ] dodělat případně další typy dokumentů
