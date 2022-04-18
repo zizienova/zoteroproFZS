@@ -2,7 +2,7 @@
 
 ### Jaké druhy dokumentů lze citovat:
 
-Styl je upraven pouze pro typy dokumentů, které nejčastěji citují studenti FTS TUL a které jsou definované v *Metodice zpracování bibliografických citací, 2. vyd.* viz https://publi.cz/download/publication/1514?online=1. Jedná se o:
+Styl je upraven pro typy dokumentů, které nejčastěji citují studenti FTS TUL a které jsou definované v *Metodice zpracování bibliografických citací, 2. vyd.* viz https://publi.cz/download/publication/1514?online=1. Jedná se o:
 
 - knihy
 
@@ -34,7 +34,7 @@ Styl je upraven pouze pro typy dokumentů, které nejčastěji citují studenti 
 
 Pro následující dokumenty není citační styl upraven: audio nahrávka, článek v encyklopedii, článek v magazínu, článek v novinách, dopis, film, konferenční příspěvek, mapa, nařízení, podcast, pořad v rádiu, pořad v TV, preprint, případ, příspěvek v blogu, příspěvek ve fóru, rozhovor, rukopis, slyšení, software, umělecké dílo, videonahrávka, záznam ve slovníku, zpráva, zpráva IM.
 
-V případě, že potřebujete citovat některý z těchto druhů, pak dodržujte princip toho, že citace by měly dodržovat stejná pravidla a měly by vypadat podobně. Lze použít některý z připravených druhů dokumentů (viz Jaké dokumenty lze citovat).
+V případě, že potřebujete citovat některý z těchto druhů, pak aplikujte princip, že citace by měly dodržovat stejná pravidla a měly by vypadat podobně. Lze použít také některý z připravených druhů dokumentů (viz Jaké dokumenty lze citovat).
 
 ### Co citační styl neumí a je tedy nutné upravovat ručně:
 
@@ -94,7 +94,7 @@ Používejte typ položky "Kapitola knihy". Dodržujte všechna pravidla viz sek
 
 Pokud chybí editor knihy nebo autor knihy, je třeba je psát do Zotera do pole EDITOR resp. AUTOR KNIHY.
 DOI kapitoly pište do pole EXTRA ve tvaru DOI: 10.19.12345667.
-Ze Scopusu se kapitoly stahují jako články, je možné okopírovat DOI a pak přes kouzelnou hůlku znovu vložit pomocí DOI.
+Ze Scopusu se kapitoly stahují jako články, je možné okopírovat DOI a pak přes kouzelnou hůlku znovu stáhnout do Zotera.
 
 Vzorová metadata:
 
@@ -114,13 +114,9 @@ Vzorová metadata:
 
 Používejte typ položky "Webová stránka". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
-Název webové stránky se píše do pole NÁZEV.
+Název webové stránky se píše do pole NÁZEV. Autor webové stránky se píše do pole AUTOR. Pište ho přesně tak, jak pak má být ve výsledné citaci. Název webu se píše do pole NÁZEV STRÁNKY.
 
-Autor webové stránky se píše do pole AUTOR. Pište ho přesně tak, jak pak má být ve výsledné citaci.
-
-Název webu se píše do pole NÁZEV STRÁNKY.
-
-Do pole EXTRA se uvádějí čtyři údaje - autor webu, místo vydání, nakladatel a datum aktualizacen(viz vzorová metadata).
+Do pole EXTRA se uvádějí čtyři údaje - autor webu, místo vydání, nakladatel a datum aktualizace (viz vzorová metadata). Pozor, každý údaj musí být na novém řádku a zapsaný přesně takto!
 
 Vzorová metadata:
 
@@ -156,13 +152,7 @@ Používejte typ položky "Patent". Dodržujte všechna pravidla viz sekce Co ci
 
 Funguje stahování z databází Espacenet, Google Patents aj. Citace je třeba opravovat.
 
-Původce pište do pole VYNÁLEZCE. Datum udělení či přihlášení pište do pole DATUM VYDÁNÍ. Do pole EXTRA se uvádějí dva údaje ve tvaru:
-
-jmeno_majitele: Technická univerzita v Liberci
-
-druh_dokumentu: užitný vzor
-
-Pozor, každý údaj musí být na novém řádku a zapsaný přesně takto!
+Původce pište do pole VYNÁLEZCE. Datum udělení či přihlášení pište do pole DATUM VYDÁNÍ. Do pole EXTRA se uvádějí dva údaje: jméno majitele a druh dokumentu (viz vzorová metadata). Pozor, každý údaj musí být na novém řádku a zapsaný přesně takto!
 
 Vzorová metadata:
 
@@ -189,9 +179,9 @@ Používejte typ položky "E-mail". Dodržujte všechna pravidla viz sekce Co ci
 Citace je třeba vytvářet ručně, nejdou odnikud stáhnout v přijatelné podobě.
 
 Název e-mailu pište do pole SUBJEKT. Odesílatele pište do pole AUTOR. Adresáta pište do pole PŘÍJEMCE. Datumy se píší do tří polí:
-Do „DATUM“ pište jen rok, kdy byl mail doručen.
-Do pole „PŘÍSTUP“ se píše datum citování (např. 3. 10. 2016).
-Do „EXTRA“ se píše kompletní datum a čas doručení mailu ve tvaru:
+Do pole DATUM pište jen rok, kdy byl mail doručen.
+Do pole PŘÍSTUP se píše datum citování (např. 3. 10. 2016).
+Do EXTRA se píše kompletní datum a čas doručení mailu ve tvaru:
 cas_doruceni: 29. října 2016 12:53
 
 Vzorová metadata:
@@ -200,7 +190,7 @@ Vzorová metadata:
 
 ##### Obrázky:
 
-Pro obrázky v knize používejte typ "Kapitola knihy". Pro obrázky z webových stránek používejte typ "Webová stránka".
+Pro obrázky z knihy používejte typ "Kapitola knihy". Pro obrázky z webových stránek používejte typ "Webová stránka".
 
 ###### Obrázek v knize:
 
