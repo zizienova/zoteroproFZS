@@ -30,9 +30,9 @@ Styl je upraven pro typy dokumentů, které nejčastěji citují studenti FTS TU
 
 - postery
 
-### Jaké druhy dokumentů (typy položek) citovat nelze:
+### Pro jaké druhy dokumentů (typy položek) není styl upraven:
 
-Pro následující dokumenty není citační styl upraven: audio nahrávka, článek v encyklopedii, článek v magazínu, článek v novinách, dopis, film, konferenční příspěvek, mapa, nařízení, podcast, pořad v rádiu, pořad v TV, preprint, případ, příspěvek v blogu, příspěvek ve fóru, rozhovor, rukopis, slyšení, software, umělecké dílo, videonahrávka, záznam ve slovníku, zpráva, zpráva IM.
+Pro následující dokumenty není citační styl nastaven, citace nemusí odpovídat pravidlům FZS: audio nahrávka, článek v encyklopedii, článek v magazínu, článek v novinách, dopis, film, konferenční příspěvek, mapa, nařízení, podcast, pořad v rádiu, pořad v TV, preprint, případ, příspěvek v blogu, příspěvek ve fóru, rozhovor, rukopis, slyšení, software, umělecké dílo, videonahrávka, záznam ve slovníku, zpráva, zpráva IM.
 
 V případě, že potřebujete citovat některý z těchto druhů, pak aplikujte princip, že citace by měly dodržovat stejná pravidla a měly by vypadat podobně. Lze použít také některý z připravených druhů dokumentů (viz Jaké dokumenty lze citovat).
 
@@ -83,6 +83,8 @@ Používejte typ položky "Článek v časopise". Dodržujte všechna pravidla v
 Pokud chybí URL v citacích, je nutné ho nastavit v desktop Zoteru v preferencích (zahrnout URL článků v preferencích) viz
 
 ![](C:\Users\Marta\AppData\Roaming\marktext\images\2022-04-10-14-38-08-image.png)
+
+Při psaní v Google Dokumentech není ročník tučně, je třeba ho opravovat ve výsledných citacích.
 
 Vzorová metadata:
 
