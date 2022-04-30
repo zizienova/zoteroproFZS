@@ -68,6 +68,8 @@ Souběžný název, edici (sérii), abstrakt, krátký název, práva, signatura
 
 ### Specifika jednotlivých druhů dokumentů:
 
+Pokud u jednotlivých dokumentů nejsou nějaká pole zmíněná, pak to znamená, že vychází z metodiky citování pro FZS, jejich název odpovídá vzorům v této metodice citování.
+
 ##### Knihy:
 
 Používejte typ položky "Kniha". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
@@ -259,6 +261,8 @@ Vzorová metadata:
 # Pro Adyho:
 
 ## Chyby k vyřešení:
+
+u dokumentů - dát obecný text, pak vzorová metadata, pka info k polím. Info k polím udělat do odrážek. Oříznout obrázek u URL a časopisů. Přelinkovat obrázky do složky v GitHubu.
 
 Postup:
 
