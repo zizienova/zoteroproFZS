@@ -302,6 +302,8 @@ Postup:
 
 - [ ] dodělat případně další typy dokumentů
 
+- [ ] při citování obrázku z webovky doplňovat před název webu In:.
+
 # 
 
 ### 
