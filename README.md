@@ -84,11 +84,11 @@ Používejte typ položky "Článek v časopise". Dodržujte všechna pravidla v
 
 Vzorová metadata:
 
-[článek](https://drive.google.com/file/d/1gQbXRWWVDa_xQJ1UAZw1EQt-PO4DBILG/view?usp=sharing)
+![článek](https://drive.google.com/uc?export=view&id=1gQbXRWWVDa_xQJ1UAZw1EQt-PO4DBILG)
 
 - Pokud chybí URL v citacích, je nutné ho nastavit v desktop Zoteru v preferencích (Úpravy - Předvolby - Citování - Zahrnout URL článků v preferencích).
 
-[nastavení-url](https://drive.google.com/file/d/1aG8IXN5poHKvzE2krWKgmnToopz8fkVY/view?usp=sharing)
+[nastavení-url](https://drive.google.com/uc?export=view&id=1aG8IXN5poHKvzE2krWKgmnToopz8fkVY)
 
 - Při psaní v Google Dokumentech není ročník tučně, je třeba ho opravovat ve výsledných citacích.
 
@@ -98,7 +98,7 @@ Používejte typ položky "Kapitola knihy". Dodržujte všechna pravidla viz sek
 
 Vzorová metadata:
 
-[kapitola-knihy](https://drive.google.com/file/d/1IXQGWESdlP3yxK6YU_wVArUiDevHwyVL/view?usp=sharing)
+![kapitola-knihy](https://drive.google.com/uc?export=view&id=1IXQGWESdlP3yxK6YU_wVArUiDevHwyVL)
 
 - Pokud chybí editor knihy nebo autor knihy, je třeba je psát do Zotera do pole EDITOR resp. AUTOR KNIHY.
 
@@ -112,7 +112,7 @@ Používejte typ položky "Vysokoškolská kvalifikační práce". Dodržujte v�
 
 Vzorová metadata:
 
-[kvalifikační-práce](https://drive.google.com/file/d/1-KtkirJnBskYXiIzyth9AvdWFfe-DXyK/view?usp=sharing)
+![kvalifikační-práce](https://drive.google.com/uc?export=view&id=1-KtkirJnBskYXiIzyth9AvdWFfe-DXyK)
 
 - Stahování z katalogu Univerzitní knihovny TUL nefunguje. 
 
@@ -124,7 +124,7 @@ Používejte typ položky "Webová stránka". Dodržujte všechna pravidla viz s
 
 Vzorová metadata:
 
-[webová-stránka](https://drive.google.com/file/d/1N1JR4ZPwDlqxTnbhQYufrP19VU4YKNCK/view?usp=sharing)
+![webová-stránka](https://drive.google.com/uc?export=view&id=1N1JR4ZPwDlqxTnbhQYufrP19VU4YKNCK)
 
 - Název webové stránky se píše do pole NÁZEV. 
 
@@ -142,7 +142,7 @@ Používejte typ položky "Návrh zákona". Dodržujte všechna pravidla viz sek
 
 Vzorová metadata:
 
-[legislativa](https://drive.google.com/file/d/1i9SjuBNNM209sjcT6Y07mGanGgb8eb5h/view?usp=sharing)
+![legislativa](https://drive.google.com/uc?export=view&id=1i9SjuBNNM209sjcT6Y07mGanGgb8eb5h)
 
 - Citace je třeba vytvářet ručně, stahování ze systémů Zákony pro lidi, aplikace MVČR a dalších nefunguje.
 
@@ -164,7 +164,7 @@ Používejte typ položky "Kniha". Dodržujte všechna pravidla viz sekce Co cit
 
 Vzorová metadata:
 
-[norma](https://drive.google.com/file/d/1MqgXEpBtzbiYVzv3Rh6P8DoP54p4fR3I/view?usp=sharing)
+![norma](https://drive.google.com/uc?export=view&id=1MqgXEpBtzbiYVzv3Rh6P8DoP54p4fR3I)
 
 - Citace je třeba vytvářet ručně, nejdou odnikud stáhnout v přijatelné podobě.
 
@@ -176,7 +176,7 @@ Používejte typ položky "Patent". Dodržujte všechna pravidla viz sekce Co ci
 
 Vzorová metadata:
 
-[patent](https://drive.google.com/file/d/1QKPkXY3D5dXkkNRzcl9lRC7i3OS2L06D/view?usp=sharing)
+![patent](https://drive.google.com/uc?export=view&id=1QKPkXY3D5dXkkNRzcl9lRC7i3OS2L06D)
 
 - Funguje stahování z databází Espacenet, Google Patents aj. Citace je třeba opravovat.
 
@@ -192,7 +192,7 @@ Používejte typ položky "Prezentace". Dodržujte všechna pravidla viz sekce C
 
 Vzorová metadata:
 
-[přednáška](https://drive.google.com/file/d/1nio_GzS9LgLvNQLcvVmczFIp-MRd6bf3/view?usp=sharing)
+![přednáška](https://drive.google.com/uc?export=view&id=1nio_GzS9LgLvNQLcvVmczFIp-MRd6bf3)
 
 - Citace je třeba vytvářet ručně, nejdou odnikud stáhnout v přijatelné podobě.
 
@@ -212,7 +212,7 @@ Používejte typ položky "E-mail". Dodržujte všechna pravidla viz sekce Co ci
 
 Vzorová metadata:
 
-[e-mail](https://drive.google.com/file/d/12wnMPC33XxEKl6pjfsI25HOSsYe4JlFz/view?usp=sharing)
+![e-mail](https://drive.google.com/uc?export=view&id=12wnMPC33XxEKl6pjfsI25HOSsYe4JlFz)
 
 - Citace je třeba vytvářet ručně, nejdou odnikud stáhnout v přijatelné podobě.
 
@@ -236,7 +236,7 @@ Pro obrázky z knihy používejte typ "Kapitola knihy". Pro obrázky z webových
 
 Vzorová metadata:
 
-[obrázek-kapitola-knihy](https://drive.google.com/file/d/19fo59hss11HkW06IOMQnGy0r2WapopDJ/view?usp=sharing)
+![obrázek-kapitola-knihy](https://drive.google.com/uc?export=view&id=19fo59hss11HkW06IOMQnGy0r2WapopDJ)
 
 - Do pole VYDAVATEL pište název vydavatele i rok vydání knihy. 
 
@@ -248,7 +248,7 @@ Vzorová metadata:
 
 Vzorová metadata:
 
-[obrázek-webová-stránka](https://drive.google.com/file/d/1OtubTpDPxOJ930B7nEX7H6LepJ9Rt_ex/view?usp=sharing)
+![obrázek-webová-stránka](https://drive.google.com/uc?export=view&id=1OtubTpDPxOJ930B7nEX7H6LepJ9Rt_ex)
 
 - Do pole NÁZEV pište název obrázku i typ ([online obrázek] (viz vzorová metadata). 
 
@@ -260,7 +260,7 @@ Používejte typ položky "Dokument". Dodržujte všechna pravidla viz sekce Co 
 
 Vzorová metadata:
 
-[PDF-na-webu](https://drive.google.com/file/d/1n9AT-FyCiFTtcLnJApy0H2iN-YjMJcMS/view?usp=sharing)
+![PDF-na-webu](https://drive.google.com/uc?export=view&id=1n9AT-FyCiFTtcLnJApy0H2iN-YjMJcMS)
 
 - Citace je třeba vytvářet ručně, nejdou odnikud stáhnout v přijatelné podobě.
 
@@ -278,7 +278,7 @@ Používejte typ položky "Kapitola knihy". Dodržujte všechna pravidla viz sek
 
 Vzorová metadata:
 
-[poster](https://drive.google.com/file/d/1uu0Wu0bo7YkeNoErd_xKeeH04itwWx8s/view?usp=sharing)
+![poster](https://drive.google.com/uc?export=view&id=1uu0Wu0bo7YkeNoErd_xKeeH04itwWx8s)
 
 - Citace je třeba vytvářet ručně, nejdou odnikud stáhnout v přijatelné podobě.
 
