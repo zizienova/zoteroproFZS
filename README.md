@@ -76,9 +76,7 @@ Používejte typ položky "Kniha". Dodržujte všechna pravidla viz sekce Co cit
 
 Vzorová metadata:
 
-[kniha.png - Disk Google](https://drive.google.com/file/d/1RJLPiVtneRhQSzRobZT4N2BM309lremv/view?usp=sharing)
-
-<img title="" src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-14-18-33-38-image.png" alt="" width="416">
+[kniha](https://drive.google.com/file/d/1RJLPiVtneRhQSzRobZT4N2BM309lremv/view?usp=sharing)
 
 ##### Články:
 
@@ -86,11 +84,11 @@ Používejte typ položky "Článek v časopise". Dodržujte všechna pravidla v
 
 Vzorová metadata:
 
-<img title="" src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-14-18-35-21-image.png" alt="" width="466">
+[článek](https://drive.google.com/file/d/1gQbXRWWVDa_xQJ1UAZw1EQt-PO4DBILG/view?usp=sharing)
 
 - Pokud chybí URL v citacích, je nutné ho nastavit v desktop Zoteru v preferencích (Úpravy - Předvolby - Citování - Zahrnout URL článků v preferencích).
 
-<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-10-14-38-08-image.png" title="" alt="" width="560">
+[nastavení-url](https://drive.google.com/file/d/1aG8IXN5poHKvzE2krWKgmnToopz8fkVY/view?usp=sharing)
 
 - Při psaní v Google Dokumentech není ročník tučně, je třeba ho opravovat ve výsledných citacích.
 
@@ -100,7 +98,7 @@ Používejte typ položky "Kapitola knihy". Dodržujte všechna pravidla viz sek
 
 Vzorová metadata:
 
-<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-14-18-36-58-image.png" title="" alt="" width="564">
+[kapitola-knihy](https://drive.google.com/file/d/1IXQGWESdlP3yxK6YU_wVArUiDevHwyVL/view?usp=sharing)
 
 - Pokud chybí editor knihy nebo autor knihy, je třeba je psát do Zotera do pole EDITOR resp. AUTOR KNIHY.
 
@@ -114,7 +112,7 @@ Používejte typ položky "Vysokoškolská kvalifikační práce". Dodržujte v�
 
 Vzorová metadata:
 
-<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-14-18-38-23-image.png" title="" alt="" width="483">
+[kvalifikační-práce](https://drive.google.com/file/d/1-KtkirJnBskYXiIzyth9AvdWFfe-DXyK/view?usp=sharing)
 
 - Stahování z katalogu Univerzitní knihovny TUL nefunguje. 
 
@@ -126,7 +124,7 @@ Používejte typ položky "Webová stránka". Dodržujte všechna pravidla viz s
 
 Vzorová metadata:
 
-<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-15-18-58-57-image.png" title="" alt="" width="451">
+[webová-stránka](https://drive.google.com/file/d/1N1JR4ZPwDlqxTnbhQYufrP19VU4YKNCK/view?usp=sharing)
 
 - Název webové stránky se píše do pole NÁZEV. 
 
@@ -144,7 +142,7 @@ Používejte typ položky "Návrh zákona". Dodržujte všechna pravidla viz sek
 
 Vzorová metadata:
 
-<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-14-18-42-40-image.png" title="" alt="" width="479">
+[legislativa](https://drive.google.com/file/d/1i9SjuBNNM209sjcT6Y07mGanGgb8eb5h/view?usp=sharing)
 
 - Citace je třeba vytvářet ručně, stahování ze systémů Zákony pro lidi, aplikace MVČR a dalších nefunguje.
 
@@ -166,7 +164,7 @@ Používejte typ položky "Kniha". Dodržujte všechna pravidla viz sekce Co cit
 
 Vzorová metadata:
 
-<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-14-18-46-42-image.png" title="" alt="" width="499">
+[norma](https://drive.google.com/file/d/1MqgXEpBtzbiYVzv3Rh6P8DoP54p4fR3I/view?usp=sharing)
 
 - Citace je třeba vytvářet ručně, nejdou odnikud stáhnout v přijatelné podobě.
 
@@ -178,7 +176,7 @@ Používejte typ položky "Patent". Dodržujte všechna pravidla viz sekce Co ci
 
 Vzorová metadata:
 
-<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-14-18-56-51-image.png" title="" alt="" width="467">
+[patent](https://drive.google.com/file/d/1QKPkXY3D5dXkkNRzcl9lRC7i3OS2L06D/view?usp=sharing)
 
 - Funguje stahování z databází Espacenet, Google Patents aj. Citace je třeba opravovat.
 
@@ -194,7 +192,7 @@ Používejte typ položky "Prezentace". Dodržujte všechna pravidla viz sekce C
 
 Vzorová metadata:
 
-<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-14-19-05-08-image.png" title="" alt="" width="483">
+[přednáška](https://drive.google.com/file/d/1nio_GzS9LgLvNQLcvVmczFIp-MRd6bf3/view?usp=sharing)
 
 - Citace je třeba vytvářet ručně, nejdou odnikud stáhnout v přijatelné podobě.
 
@@ -214,7 +212,7 @@ Používejte typ položky "E-mail". Dodržujte všechna pravidla viz sekce Co ci
 
 Vzorová metadata:
 
-<img title="" src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-14-19-12-58-image.png" alt="" width="522">
+[e-mail](https://drive.google.com/file/d/12wnMPC33XxEKl6pjfsI25HOSsYe4JlFz/view?usp=sharing)
 
 - Citace je třeba vytvářet ručně, nejdou odnikud stáhnout v přijatelné podobě.
 
@@ -238,7 +236,7 @@ Pro obrázky z knihy používejte typ "Kapitola knihy". Pro obrázky z webových
 
 Vzorová metadata:
 
-<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-16-19-10-54-image.png" title="" alt="" width="415">
+[obrázek-kapitola-knihy](https://drive.google.com/file/d/19fo59hss11HkW06IOMQnGy0r2WapopDJ/view?usp=sharing)
 
 - Do pole VYDAVATEL pište název vydavatele i rok vydání knihy. 
 
@@ -250,7 +248,7 @@ Vzorová metadata:
 
 Vzorová metadata:
 
-<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-16-19-16-22-image.png" title="" alt="" width="470">
+[obrázek-webová-stránka](https://drive.google.com/file/d/1OtubTpDPxOJ930B7nEX7H6LepJ9Rt_ex/view?usp=sharing)
 
 - Do pole NÁZEV pište název obrázku i typ ([online obrázek] (viz vzorová metadata). 
 
@@ -262,7 +260,7 @@ Používejte typ položky "Dokument". Dodržujte všechna pravidla viz sekce Co 
 
 Vzorová metadata:
 
-<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-15-14-47-39-image.png" title="" alt="" width="508">
+[PDF-na-webu](https://drive.google.com/file/d/1n9AT-FyCiFTtcLnJApy0H2iN-YjMJcMS/view?usp=sharing)
 
 - Citace je třeba vytvářet ručně, nejdou odnikud stáhnout v přijatelné podobě.
 
@@ -280,7 +278,7 @@ Používejte typ položky "Kapitola knihy". Dodržujte všechna pravidla viz sek
 
 Vzorová metadata:
 
-<img src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-15-15-21-43-image.png" title="" alt="" width="588">
+[poster](https://drive.google.com/file/d/1uu0Wu0bo7YkeNoErd_xKeeH04itwWx8s/view?usp=sharing)
 
 - Citace je třeba vytvářet ručně, nejdou odnikud stáhnout v přijatelné podobě.
 
@@ -294,7 +292,7 @@ Vzorová metadata:
 
 ## Chyby k vyřešení:
 
-u dokumentů - Oříznout obrázek u URL a časopisů. Přelinkovat obrázky do složky v GitHubu.
+
 
 Postup:
 
