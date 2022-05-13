@@ -76,7 +76,7 @@ Používejte typ položky "Kniha". Dodržujte všechna pravidla viz sekce Co cit
 
 Vzorová metadata:
 
-[kniha](https://drive.google.com/file/d/1RJLPiVtneRhQSzRobZT4N2BM309lremv/view?usp=sharing)
+![kniha](https://drive.google.com/uc?export=view&id=1RJLPiVtneRhQSzRobZT4N2BM309lremv)
 
 ##### Články:
 
