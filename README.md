@@ -76,6 +76,8 @@ Používejte typ položky "Kniha". Dodržujte všechna pravidla viz sekce Co cit
 
 Vzorová metadata:
 
+[kniha.png - Disk Google](https://drive.google.com/file/d/1RJLPiVtneRhQSzRobZT4N2BM309lremv/view?usp=sharing)
+
 <img title="" src="file:///C:/Users/Marta/AppData/Roaming/marktext/images/2022-04-14-18-33-38-image.png" alt="" width="416">
 
 ##### Články:
