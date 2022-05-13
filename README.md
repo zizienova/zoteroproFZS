@@ -88,7 +88,7 @@ Vzorová metadata:
 
 - Pokud chybí URL v citacích, je nutné ho nastavit v desktop Zoteru v preferencích (Úpravy - Předvolby - Citování - Zahrnout URL článků v preferencích).
 
-[nastavení-url](https://drive.google.com/uc?export=view&id=1aG8IXN5poHKvzE2krWKgmnToopz8fkVY)
+![nastavení-url](https://drive.google.com/uc?export=view&id=1aG8IXN5poHKvzE2krWKgmnToopz8fkVY)
 
 - Při psaní v Google Dokumentech není ročník tučně, je třeba ho opravovat ve výsledných citacích.
 
