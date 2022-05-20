@@ -292,8 +292,6 @@ Vzorová metadata:
 
 ## Chyby k vyřešení:
 
-
-
 Postup:
 
 - [x] 
