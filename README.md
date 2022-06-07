@@ -254,6 +254,8 @@ Vzorová metadata:
 
 - Údaje o webu pište stejně jako u citace webové stránky, využívejte pole EXTRA.
 
+- Ve výsledné citaci doplňujte před název stránky In:. (Případně můžete In: psát do pole Název, ve tvaru ... [online obrázek]. In: )
+
 ##### PDF na webu (příspěvky na webové stránce ve formátu PDF):
 
 Používejte typ položky "Dokument". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
