@@ -250,11 +250,9 @@ Vzorová metadata:
 
 ![obrázek-webová-stránka](https://drive.google.com/uc?export=view&id=1OtubTpDPxOJ930B7nEX7H6LepJ9Rt_ex)
 
-- Do pole NÁZEV pište název obrázku i typ ([online obrázek] (viz vzorová metadata). 
+- Do pole NÁZEV pište název obrázku, typ obrázku a In: (viz vzorová metadata). 
 
 - Údaje o webu pište stejně jako u citace webové stránky, využívejte pole EXTRA.
-
-- Ve výsledné citaci doplňujte před název stránky In:. (Případně můžete In: psát do pole Název, ve tvaru ... [online obrázek]. In: )
 
 ##### PDF na webu (příspěvky na webové stránce ve formátu PDF):
 
@@ -290,20 +288,8 @@ Vzorová metadata:
 
 - DOI se píše také do pole EXTRA ve tvaru DOI: 123-456-67.
 
-# Pro Adyho:
-
-## Chyby k vyřešení:
-
-Postup:
-
-- [x] 
+# Chyby k vyřešení:
 
 - [ ] vyčistit kód
 
-- [ ] dodělat případně další typy dokumentů
-
-- [ ] při citování obrázku z webovky doplňovat před název webu In:.
-
-# 
-
-### 
+- [ ] dodělat případně další typy dokumentů 
