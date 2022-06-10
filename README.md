@@ -46,7 +46,7 @@ Některá pravidla v *Metodice zpracování bibliografických citací, 2. vyd.* 
 
 - u tří osob zkracujte v metadatech křesní jména na iniciály
 
-- pokud jsou autoři či editoři uvedeni ve formě "Jan Novák a kol.", pak v metadatech doplňte první osobu a k ní další tři FIKTIVNÍ osoby (např. autor2, autor3, autor4).
+- pokud jsou autoři či editoři uvedeni ve formě „Jan Novák a kol.“, pak v metadatech doplňte první osobu a k ní další tři FIKTIVNÍ osoby (např. autor2, autor3, autor4).
 
 - u dvou a více editorů opravujte ed. na eds. - v odkaze v textu i v bibliografické citaci!
 
@@ -72,7 +72,7 @@ Pokud u jednotlivých dokumentů nejsou nějaká pole zmíněná, pak to znamen�
 
 ##### Knihy:
 
-Používejte typ položky "Kniha". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+Používejte typ položky „Kniha“. Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
 Vzorová metadata:
 
@@ -80,7 +80,7 @@ Vzorová metadata:
 
 ##### Články:
 
-Používejte typ položky "Článek v časopise". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+Používejte typ položky „Článek v časopise“. Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
 Vzorová metadata:
 
@@ -94,7 +94,7 @@ Vzorová metadata:
 
 ##### Kapitoly:
 
-Používejte typ položky "Kapitola knihy". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+Používejte typ položky „Kapitola knihy“. Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
 Vzorová metadata:
 
@@ -108,7 +108,7 @@ Vzorová metadata:
 
 ##### Kvalifikační práce:
 
-Používejte typ položky "Vysokoškolská kvalifikační práce". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+Používejte typ položky „Vysokoškolská kvalifikační práce“. Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
 Vzorová metadata:
 
@@ -120,7 +120,7 @@ Vzorová metadata:
 
 ##### Webové stránky:
 
-Používejte typ položky "Webová stránka". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+Používejte typ položky „Webová stránka“. Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
 Vzorová metadata:
 
@@ -138,7 +138,7 @@ Vzorová metadata:
 
 ##### Legislativa (vyhlášky, zákony, věstníky, legislativa Evropské unie):
 
-Používejte typ položky "Návrh zákona". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+Používejte typ položky „Návrh zákona“. Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
 Vzorová metadata:
 
@@ -160,7 +160,7 @@ Vzorová metadata:
 
 ##### Normy:
 
-Používejte typ položky "Kniha". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+Používejte typ položky „Kniha“. Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
 Vzorová metadata:
 
@@ -172,7 +172,7 @@ Vzorová metadata:
 
 ##### Patenty a užitné vzory:
 
-Používejte typ položky "Patent". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+Používejte typ položky „Patent“. Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
 Vzorová metadata:
 
@@ -188,7 +188,7 @@ Vzorová metadata:
 
 ##### Přednášky (ústní sdělení):
 
-Používejte typ položky "Prezentace". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+Používejte typ položky „Prezentace“. Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
 Vzorová metadata:
 
@@ -208,7 +208,7 @@ Vzorová metadata:
 
 ##### E-maily:
 
-Používejte typ položky "E-mail". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+Používejte typ položky „E-mail“. Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
 Vzorová metadata:
 
@@ -230,7 +230,7 @@ Vzorová metadata:
 
 ##### Obrázky:
 
-Pro obrázky z knihy používejte typ "Kapitola knihy". Pro obrázky z webových stránek používejte typ "Webová stránka".
+Pro obrázky z knihy používejte typ „Kapitola knihy“. Pro obrázky z webových stránek používejte typ „Webová stránka“.
 
 ###### Obrázek v knize:
 
@@ -256,7 +256,7 @@ Vzorová metadata:
 
 ##### PDF na webu (příspěvky na webové stránce ve formátu PDF):
 
-Používejte typ položky "Dokument". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+Používejte typ položky „Dokument“. Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
 Vzorová metadata:
 
@@ -274,7 +274,7 @@ Vzorová metadata:
 
 ##### Postery:
 
-Používejte typ položky "Kapitola knihy". Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+Používejte typ položky „Kapitola knihy“. Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
 Vzorová metadata:
 
