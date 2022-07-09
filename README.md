@@ -134,7 +134,7 @@ Vzorová metadata:
 
 - Datum citování se píše do pole PŘÍSTUP. Při vytvoření záznamu přes rozšíření v prohlížeči vzniká toto pole automaticky, je tedy třeba ho jen zkontrolovat. Při ručním vytváření záznamu musíte pole vyplnit, stačí jen den, měsíc a rok (např. 14. 5. 2022).
 
-- Do pole EXTRA se uvádějí čtyři údaje - autor webu, místo vydání, nakladatel a datum aktualizace (viz vzorová metadata). Pozor, každý údaj musí být na novém řádku a zapsaný přesně takto!
+- Do pole EXTRA se uvádí pět údajů - autor webu, místo vydání, nakladatel, detailní datum vydání a datum aktualizace (viz vzorová metadata). Pozor, každý údaj musí být na novém řádku a zapsaný přesně takto! (Pozn.: Ve vzorových metadatech je datum vydání a datum aktualizace stejné. V tomto případě se datum aktualizace nemusí do bibliografické citace psát, ale zde jsou pro ilustrační účely zachována obě data.)
 
 ##### Legislativa (vyhlášky, zákony, věstníky, legislativa Evropské unie):
 
@@ -288,8 +288,8 @@ Vzorová metadata:
 
 - DOI se píše také do pole EXTRA ve tvaru DOI: 123-456-67.
 
-# Chyby k vyřešení:
+# Návrhy na vylepšení:
 
 - [ ] vyčistit kód
 
-- [ ] dodělat případně další typy dokumentů 
+- [ ] dodělat další typy dokumentů 
