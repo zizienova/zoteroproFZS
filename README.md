@@ -1,8 +1,44 @@
 # README
 
+### Informace o původu:
+
+###### Autor 1:
+
+Jméno autora: Marta Zizienová
+
+ORCID: https://orcid.org/0000-0002-3805-7112
+
+Instituce: [Univerzitní knihovna Technické univerzity v Liberci](https://knihovna.tul.cz/)
+
+Adresa: Technická univerzita v Liberci, Univerzitní knihovna
+
+                Voroněžská 13/29
+
+                46006, Liberec 6
+
+                Czech Republic
+
+E-mail: [marta.zizienova@tul.cz](mailto:marta.zizienova@tul.cz)
+
+###### Autor 2:
+
+Jméno autora: Adam Zizien
+
+ORCID: https://orcid.org/0000-0002-8612-0470
+
+Instituce: [České vysoké učení technické v Praze, Fakulta elektrotechnická](https://fel.cvut.cz/cs)
+
+Datum výroby: od 2022-03-06 do 2022-07-22
+
+Licence: [Creative Commons Uveďte původ – Zachovejte licenci](https://creativecommons.org/licenses/by-sa/4.0/)
+
+Použití: V předmětech IZMN a IZMNO v akademickém roce 2022/2023, viz [FZS/IZMN (2022)](https://elearning.tul.cz/course/view.php?id=10679)
+
+Důvod vzniku: Zapracování citačního stylu pro Fakultu zdravotnických studií Technické univerzity v Liberci (FZS TUL), který je popsán v publikaci *Metodika zpracování bibliografických citací a pravidla pro psaní citací, 2. vydání, ISBN 978-80-7494-576-2*, viz https://publi.cz/books/1514/index.html#cover.
+
 ### Jaké druhy dokumentů lze citovat:
 
-Styl je upraven pro typy dokumentů, které nejčastěji citují studenti FTS TUL a které jsou definované v *Metodice zpracování bibliografických citací, 2. vyd.* viz https://publi.cz/download/publication/1514?online=1. Jedná se o:
+Styl je upraven pro typy dokumentů, které nejčastěji citují studenti FZS TUL a které jsou definované v *Metodice zpracování bibliografických citací, 2. vyd.* viz https://publi.cz/download/publication/1514?online=1. Jedná se o:
 
 - knihy
 
